@@ -4,3 +4,6 @@
 .postdiv{
     display: none;
 }
+.postdiv{
+    display:block;
+}
