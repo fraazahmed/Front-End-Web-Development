@@ -7,16 +7,20 @@
     <title>My blogging</title>
     <meta name="description" content="Awesome" >
     <meta name="keywords" content="Awesome blog" >
-    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="style.css">
+
     <style>
-        #main-header{
+        #main-header
+        {
             text-align: center;
             background-color: black;
             color: whitesmoke;
             padding: 12px;
         }
 
-        #main-footer{
+        #main-footer
+        {
             font-size: 21px;
             text-align: center;
         }
@@ -28,47 +32,62 @@
             My website
         </h1>
     </header>
+    <button class="accordion" > section 1</button>
+                <div class="a">
+    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        . <br> Mollitia culpa laborum modi iusto ve
+                        l, dolor,<br> itaque nostrum, aspernatur fugit at beatae tempor
+                        e ab autem <br> nihil magni explicabo quis qui fuga?
+                    </p>
 
-    <a href="index.html">Go to index</a>
-    <section>
-        <article class="Post" >
-        <h3>Blog Post 1</h3>
-        <small>posted by fraaz</small>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit
-            . <br> Mollitia culpa laborum modi iusto ve
-            l, dolor,<br> itaque nostrum, aspernatur fugit at beatae tempor
-            e ab autem <br> nihil magni explicabo quis qui fuga?
-        </p>
-        <a href="http://wikipedia.com">Read more</a>
-        </article>
-    <section>
-        <article class="Post" >
-        <h3>Blog Post 2</h3>
-        <small>posted by fraaz</small>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit
-            . <br> Mollitia culpa laborum modi iusto ve
-            l, dolor,<br> itaque nostrum, aspernatur fugit at beatae tempor
-            e ab autem <br> nihil magni explicabo quis qui fuga?
-        </p>
-        <a href="http://wikipedia.com">Read more</a>
+                <button class="accordion" > section 2</button>
 
-        </article>
-    <div class="postdiv" >
-        <h3>Blog Post 3</h3>
-        <small>posted by fraaz</small>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit
-            . <br> Mollitia culpa laborum modi iusto ve
-            l, dolor,<br> itaque nostrum, aspernatur fugit at beatae tempor
-            e ab autem <br> nihil magni explicabo quis qui fuga?
-        </p>
-        <a href="http://wikipedia.com">Read more</a>
+                <div class="b" >
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        . <br> Mollitia culpa laborum modi iusto ve
+                        l, dolor,<br> itaque nostrum, aspernatur fugit at beatae tempor
+                        e ab autem <br> nihil magni explicabo quis qui fuga?
+                    </p>
 
-        
-        
-    </div>
+                <button class="accordion" > section 3</button>
+
+                <div class="c" >   
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        . <br> Mollitia culpa laborum modi iusto ve
+                        l, dolor,<br> itaque nostrum, aspernatur fugit at beatae tempor
+                        e ab autem <br> nihil magni explicabo quis qui fuga?
+                    </p> 
+
+                </div>  
+            </div>
+        </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var posts = this.nextElementSibling;
+        if (posts.style.display === "block") {
+        posts.style.display = "none";
+        } else {
+        posts.style.display = "block";
+        }
+    });
+    }
+
+    </script>
+
     <aside>
         <nav>
             <ul>
@@ -82,6 +101,8 @@
     <footer id="main-footer" > 
         <p>copyright &copy; 2022, My website </p>
     </footer>
-    <div></div>
+    
+
+
 </body>
 </html>

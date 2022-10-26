@@ -1,6 +1,23 @@
-#main-footer{
+
+
+.accordion {
+    background-color: #585252;
+    color: hsla(0, 2%, 22%, 0.863);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color: hwb(0 98% 2%);
+  }
+  .posts {
+    padding: 0 18px;
+    background-color: rgb(114, 112, 119);
     display: none;
-}
-.postdiv{
-    display: block;
-}
+    overflow: hidden;
+  }
