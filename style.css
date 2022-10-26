@@ -1,8 +1,8 @@
 
 
 .accordion {
-    background-color: #585252;
-    color: hsla(0, 2%, 22%, 0.863);
+    background-color: hsl(0, 60%, 98%);
+    color: hsla(123, 65%, 63%, 0.863);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -15,9 +15,28 @@
   .active, .accordion:hover {
     background-color: hwb(0 98% 2%);
   }
-  .posts {
+  .a{
     padding: 0 18px;
-    background-color: rgb(114, 112, 119);
+    background-color: #e9e7ed;
     display: none;
     overflow: hidden;
   }
+
+.a1{
+    display: flex;
+   justify-content: space-between;
+   justify-content: space-evenly;
+    
+} 
+
+.b{
+    width: 20%;
+
+
+}
+
+.c{
+    width: 20%;
+
+
+}
