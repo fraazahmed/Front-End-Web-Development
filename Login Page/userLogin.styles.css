@@ -1,0 +1,50 @@
+.login{
+    width: 100%;
+    margin: 2%;
+}
+.wrapper{
+    padding: 10px 10px;
+    /* width: 100%; */
+    margin: 5% ;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.login-title{
+    margin: 2%;
+    text-align: center;    
+}
+.mail{
+    /* padding: 30px; */
+    margin: 2% 0% ;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+    
+}
+.login-mail {
+    width: 100%;
+    /* padding: 12px 20px; */
+    margin: 2% 0%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+/* .login-mail{ 
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px; 
+    display: flex;
+    flex-basis: 100%;  
+}*/
+
+.required{
+    /* padding : 20px; */
+    width: 100%;
+    text-align: center;
+
+}
