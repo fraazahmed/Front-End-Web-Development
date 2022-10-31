@@ -8,14 +8,17 @@ body{
     justify-content: center;
     background: url("https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
+    overflow: hidden;
     
 }
 h2{
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 14px;
+    font-weight:900 ;
     text-align: center;
     background: white;
+    padding: 3px;
 
 }
 .clock{
@@ -27,6 +30,7 @@ h2{
 
 }
 .clock span{
+    
     width: 100px;
     height: 80px;
     background: black;
