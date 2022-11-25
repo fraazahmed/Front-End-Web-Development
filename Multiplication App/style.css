@@ -5,7 +5,7 @@ body{
     height: 100vh;
     align-items:center;
     text-align: center;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
     font-family: cursive;
     color: rgb(255, 246, 78);
 
@@ -13,7 +13,7 @@ body{
 .form{
     background-color: grey;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, .9);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .9);
     border-radius: 10px;
     margin: 10px;
 
@@ -24,9 +24,9 @@ body{
     box-sizing: border-box;
     font-size: 28px;
     padding: 2px;
-    text-align: center;
+    text-align:center; 
     border: solid 4px wheat;
-    color: rgb(100, 194, 237);
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
