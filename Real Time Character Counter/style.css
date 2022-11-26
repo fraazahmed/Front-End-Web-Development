@@ -24,7 +24,7 @@ body{
     box-sizing: border-box;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid 2px lightblue
+    border: solid 2px lightblue;
 
 }
 
@@ -46,5 +46,5 @@ body{
     font-size: 20px;
 }
 .remaining-counter{
-    color: orangered;
+    color: rgb(255, 0, 0);
 }
