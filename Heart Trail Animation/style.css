@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+}
+span{
+    background: url("https://cdn3.iconfinder.com/data/icons/ukraine-3/512/heart_love_country_nation_ukraine_design_icons_free-64.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 6s linear;
+
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+
+    }
+    100%{
+        transform: translate(-50%, -5000%);
+        opacity: 0;
+        filter: hue-rotate(1000deg);
+    }
+    
+}
