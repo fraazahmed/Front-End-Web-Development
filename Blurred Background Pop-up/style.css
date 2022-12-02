@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 5px 8px #f0080cf8; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.btn{
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(3, 209, 255, 0.3) ;
+}
+.btn:hover{
+    /* background-color: rgb(23, 124, 124); */
+    filter: brightness(.7);
+}
+
+.active.container{
+    filter: blur(5px) brightness(.7);
+}
+.popup-container{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(128, 128, 128, 0.872);
+    width: 400px;
+    height: 200px;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: url("https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #a4a4a4f8;
+}
+
+h4{
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(9, 211, 251);
+    text-shadow: 5px 4px 8px hsla(233, 100%, 51%, 0.976) ;
+}
+
+label{
+    color: rgb(251, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 2px;
+}
+.popup-btn{
+    background-color: orange;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid;
+
+}
+
+input{
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+    border: 2px solid;
+}
+
+input::placeholder{
+    color: lightgray;
+}
+
+.close-icon{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-icon:hover{
+    color: orangered;
+}
+.active.popup-container{
+    visibility: hidden;
+}
