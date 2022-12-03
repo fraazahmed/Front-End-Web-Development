@@ -7,9 +7,10 @@ body{
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background: url("https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background: url("https://images.pexels.com/photos/270669/pexels-photo-270669.jpeg?auto=compress&cs=tinysrgb&w=600");
     background-size: cover;
     text-align: center;
+    transition: filter 1s;
 }
 
 h1{
@@ -52,6 +53,8 @@ h1{
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px #a4a4a4f8;
+    opacity: 1;
+    transition: all 1s;
 }
 
 h4{
@@ -102,4 +105,6 @@ input::placeholder{
 }
 .active.popup-container{
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
